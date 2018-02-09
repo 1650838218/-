@@ -39,5 +39,5 @@ var zNodes =[
 	];
 
 $(document).ready(function() {
-	$.fn.zTree.init($("#treeDemo"), setting, zNodes);
+	$.fn.zTree.init($("#tree"), setting, zNodes);
 });
