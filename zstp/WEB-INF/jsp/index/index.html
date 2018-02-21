@@ -25,7 +25,7 @@
 						<a class="nav_2" href="javascript:void(0)" title="韶华追忆">韶华追忆</a>
 					</li>
 					<li class="layui-nav-item">
-						<a class="nav_3" href="javascript:void(0)" hreflink="../zstp/zstp.html" title="知识图谱">知识图谱</a>
+						<a class="nav_3" href="../zstp/zstp.html" hreflink="" title="知识图谱">知识图谱</a>
 					</li>
 					<li class="layui-nav-item">
 						<a class="nav_4" href="javascript:void(0)" title="对我说">对我说</a>
@@ -42,11 +42,11 @@
 		<script type="text/javascript">
 			layui.use('element', function() {
 				var element = layui.element;
-				element.on('nav(nav)', function(elem){
+				/*element.on('nav(nav)', function(elem){
 					console.log(elem[0].firstElementChild.getAttribute("hreflink")); //得到当前点击的DOM对象
 					var href = elem[0].firstElementChild.getAttribute("hreflink");
 					$("#content").load(href);
-				});
+				});*/
 			});
 		</script>
 	</body>
